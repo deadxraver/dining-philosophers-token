@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 #include "int.h"
-#include "clone_id.h"
+/*id*/clone
 #include "lparen.h"
 #include "rparen.h"
 #include "semicolon.h"
 
 
 #include "struct.h"
-#include "place_id.h"
+/*id*/place
 #include "lbrace.h"
 
 #include "rbrace.h"
@@ -18,16 +18,32 @@
 #include "lbrace.h"
 
 #include "int.h"
-n
+/*id*/n
 #include "equals.h"
 #include "ZERO.h"
 #include "semicolon.h"
 
-#include "printf_id.h"
+/*id*/printf
 #include "lparen.h"
-"%d\n"
+/*string_literal*/"%d\n"
 #include "coma.h"
+/*id*/n
+#include "rparen.h"
+#include "semicolon.h"
+
+#include "if.h"
+#include "lparen.h"
 n
+#include "rparen.h"
+/*id*/printf
+#include "lparen.h"
+"NON ZERO\n"
+#include "rparen.h"
+#include "semicolon.h"
+#include "else.h"
+/*id*/printf
+#include "lparen.h"
+"ZERO\n"
 #include "rparen.h"
 #include "semicolon.h"
 
