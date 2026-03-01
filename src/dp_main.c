@@ -1,11 +1,25 @@
 #include <stdio.h>
 
 #include "int.h"
-/*id*/clone
+/*id*/fork
 #include "lparen.h"
 #include "rparen.h"
 #include "semicolon.h"
 
+#include "void.h"
+/*id*/exit
+#include "lparen.h"
+#include "int.h"
+#include "rparen.h"
+#include "semicolon.h"
+
+#include "int.h"
+/*id*/wait
+#include "lparen.h"
+#include "void.h"
+#include "star.h"
+#include "rparen.h"
+#include "semicolon.h"
 
 #include "struct.h"
 /*id*/place
@@ -14,36 +28,61 @@
 #include "rbrace.h"
 #include "semicolon.h"
 
+#include "void.h"
+/*id*/exec_child
+#include "lparen.h"
+#include "int.h"
+/*id*/p_number
+#include "rparen.h"
+#include "lbrace.h"
+// TODO: philosopher logic
+/*id*/exit
+#include "lparen.h"
+#include "ZERO.h"
+#include "rparen.h"
+#include "semicolon.h"
+#include "rbrace.h"
+
 #include "main_no_args.h"
 #include "lbrace.h"
 
+#include "for.h"
+#include "lparen.h"
 #include "int.h"
-/*id*/n
-#include "equals.h"
+/*id*/i
+#include "eq.h"
 #include "ZERO.h"
 #include "semicolon.h"
-
-/*id*/printf
-#include "lparen.h"
-/*string_literal*/"%d\n"
-#include "coma.h"
-/*id*/n
-#include "rparen.h"
+/*id*/i
+#include "lt.h"
+#include "FOUR.h"
 #include "semicolon.h"
-
+/*id*/i
+#include "eq.h"
+/*id*/i
+#include "plus.h"
+#include "ONE.h"
+#include "rparen.h"
+#include "lbrace.h"
 #include "if.h"
 #include "lparen.h"
-n
-#include "rparen.h"
-/*id*/printf
+/*id*/fork
 #include "lparen.h"
-"NON ZERO\n"
 #include "rparen.h"
+#include "rparen.h"
+#include "continue.h"
 #include "semicolon.h"
 #include "else.h"
-/*id*/printf
+/*id*/exec_child
 #include "lparen.h"
-"ZERO\n"
+/*id*/i
+#include "rparen.h"
+#include "semicolon.h"
+#include "rbrace.h"
+
+/*id*/wait
+#include "lparen.h"
+/*id*/NULL
 #include "rparen.h"
 #include "semicolon.h"
 
