@@ -42,6 +42,15 @@
 #include "rparen.h"
 #include "lbrace.h"
 // TODO: philosopher logic
+/*id*/printf
+#include "lparen.h"
+/*string_literal*/"Philosopher %d freed\n"
+#include "coma.h"
+/*id*/p_number
+#include "plus.h"
+#include "ONE.h"
+#include "rparen.h"
+#include "semicolon.h"
 /*id*/exit
 #include "lparen.h"
 #include "ZERO.h"
