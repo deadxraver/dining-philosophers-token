@@ -27,6 +27,9 @@
 #include "int.h"
 /*id*/right_free
 #include "semicolon.h"
+#include "int.h"
+/*id*/has_forks
+#include "semicolon.h"
 #include "rbrace.h"
 /*id*/philosophers
 #include "lbracket.h"
