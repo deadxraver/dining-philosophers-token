@@ -135,6 +135,12 @@
 #include "rparen.h"
 #include "semicolon.h"
 
+/*id*/printf
+#include "lparen.h"
+/*string_literal*/"All philosophers freed\n"
+#include "rparen.h"
+#include "semicolon.h"
+
 #include "return.h"
 #include "ZERO.h"
 #include "semicolon.h"
