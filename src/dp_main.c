@@ -1,5 +1,27 @@
-#include <stdio.h>
-#include <string.h>
+#include "int.h"
+/*id*/printf
+#include "lparen.h"
+#include "char.h"
+#include "star.h"
+#include "coma.h"
+#include "ddd.h"
+#include "rparen.h"
+#include "semicolon.h"
+
+#include "void.h"
+#include "star.h"
+/*id*/memset
+#include "lparen.h"
+#include "void.h"
+#include "star.h"
+#include "coma.h"
+#include "int.h"
+#include "coma.h"
+#include "long.h"
+#include "unsigned.h"
+#include "int.h"
+#include "rparen.h"
+#include "semicolon.h"
 
 #include "int.h"
 /*id*/fork
@@ -287,7 +309,7 @@ p_number
 
 /*id*/wait
 #include "lparen.h"
-/*id*/NULL
+/*id*/0
 #include "rparen.h"
 #include "semicolon.h"
 
