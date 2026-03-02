@@ -58,7 +58,7 @@
 #include "rbrace.h"
 /*id*/philosophers
 #include "lbracket.h"
-#include "FOUR.h"
+/*literal*/4
 #include "rbracket.h"
 #include "semicolon.h"
 
@@ -75,12 +75,12 @@
 #include "lparen.h"
 /*id*/p_number
 #include "minus.h"
-#include "ONE.h"
+/*literal*/1
 #include "plus.h"
-#include "FOUR.h"
+/*literal*/4
 #include "rparen.h"
 #include "percent.h"
-#include "FOUR.h"
+/*literal*/4
 #include "semicolon.h"
 #include "for.h"
 #include "lparen.h"
@@ -106,7 +106,7 @@
 #include "dot.h"
 /*id*/right_free
 #include "eq.h"
-#include "ZERO.h"
+/*literal*/0
 #include "semicolon.h"
 /*id*/philosophers
 #include "lbracket.h"
@@ -115,7 +115,7 @@
 #include "dot.h"
 /*id*/has_right
 #include "eq.h"
-#include "ONE.h"
+/*literal*/1
 #include "semicolon.h"
 #include "continue.h"
 #include "semicolon.h"
@@ -145,7 +145,7 @@ p_number
 #include "dot.h"
 /*id*/right_free
 #include "eq.h"
-#include "ZERO.h"
+/*literal*/0
 #include "semicolon.h"
 /*id*/philosophers
 #include "lbracket.h"
@@ -154,7 +154,7 @@ p_number
 #include "dot.h"
 /*id*/has_left
 #include "eq.h"
-#include "ONE.h"
+/*literal*/1
 #include "semicolon.h"
 #include "break.h"
 #include "semicolon.h"
@@ -177,7 +177,7 @@ p_number
 #include "dot.h"
 /*id*/right_free
 #include "eq.h"
-#include "ONE.h"
+/*literal*/1
 #include "semicolon.h"
 /*id*/philosophers
 #include "lbracket.h"
@@ -186,7 +186,7 @@ p_number
 #include "dot.h"
 /*id*/has_right
 #include "eq.h"
-#include "ZERO.h"
+/*literal*/0
 #include "semicolon.h"
 #include "continue.h"
 #include "semicolon.h"
@@ -200,7 +200,7 @@ p_number
 #include "dot.h"
 /*id*/has_right
 #include "eq.h"
-#include "ONE.h"
+/*literal*/1
 #include "semicolon.h"
 /*id*/philosophers
 #include "lbracket.h"
@@ -209,7 +209,7 @@ p_number
 #include "dot.h"
 /*id*/has_right
 #include "eq.h"
-#include "ONE.h"
+/*literal*/1
 #include "semicolon.h"
 /*id*/printf
 #include "lparen.h"
@@ -217,12 +217,12 @@ p_number
 #include "coma.h"
 /*id*/p_number
 #include "plus.h"
-#include "ONE.h"
+/*literal*/1
 #include "rparen.h"
 #include "semicolon.h"
 /*id*/exit
 #include "lparen.h"
-#include "ZERO.h"
+/*literal*/0
 #include "rparen.h"
 #include "semicolon.h"
 #include "rbrace.h"
@@ -235,7 +235,7 @@ p_number
 #include "ampers.h"
 /*id*/philosophers
 #include "coma.h"
-#include "ZERO.h"
+/*literal*/0
 #include "coma.h"
 /*id*/sizeof
 #include "lparen.h"
@@ -249,17 +249,17 @@ p_number
 #include "int.h"
 /*id*/i
 #include "eq.h"
-#include "ZERO.h"
+/*literal*/0
 #include "semicolon.h"
 /*id*/i
 #include "lt.h"
-#include "FOUR.h"
+/*literal*/4
 #include "semicolon.h"
 /*id*/i
 #include "eq.h"
 /*id*/i
 #include "plus.h"
-#include "ONE.h"
+/*literal*/1
 #include "rparen.h"
 #include "lbrace.h"
 /*id*/philosophers
@@ -269,7 +269,7 @@ p_number
 #include "dot.h"
 /*id*/right_free
 #include "eq.h"
-#include "ONE.h"
+/*literal*/1
 #include "semicolon.h"
 #include "rbrace.h"
 
@@ -278,17 +278,17 @@ p_number
 #include "int.h"
 /*id*/i
 #include "eq.h"
-#include "ZERO.h"
+/*literal*/0
 #include "semicolon.h"
 /*id*/i
 #include "lt.h"
-#include "FOUR.h"
+/*literal*/4
 #include "semicolon.h"
 /*id*/i
 #include "eq.h"
 /*id*/i
 #include "plus.h"
-#include "ONE.h"
+/*literal*/1
 #include "rparen.h"
 #include "lbrace.h"
 #include "if.h"
@@ -309,7 +309,7 @@ p_number
 
 /*id*/wait
 #include "lparen.h"
-/*id*/0
+/*literal*/0
 #include "rparen.h"
 #include "semicolon.h"
 
@@ -320,6 +320,6 @@ p_number
 #include "semicolon.h"
 
 #include "return.h"
-#include "ZERO.h"
+/*literal*/0
 #include "semicolon.h"
 #include "rbrace.h"
