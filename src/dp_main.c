@@ -28,7 +28,10 @@
 /*id*/right_free
 #include "semicolon.h"
 #include "int.h"
-/*id*/has_forks
+/*id*/has_right
+#include "semicolon.h"
+#include "int.h"
+/*id*/has_left
 #include "semicolon.h"
 #include "rbrace.h"
 /*id*/philosophers
@@ -44,7 +47,148 @@
 /*id*/p_number
 #include "rparen.h"
 #include "lbrace.h"
-// TODO: philosopher logic
+#include "int.h"
+/*id*/prev_p
+#include "eq.h"
+#include "lparen.h"
+/*id*/p_number
+#include "minus.h"
+#include "ONE.h"
+#include "plus.h"
+#include "FOUR.h"
+#include "rparen.h"
+#include "percent.h"
+#include "FOUR.h"
+#include "semicolon.h"
+#include "for.h"
+#include "lparen.h"
+#include "semicolon.h"
+#include "semicolon.h"
+#include "rparen.h"
+#include "lbrace.h"
+
+#include "if.h"
+#include "lparen.h"
+/*id*/philosophers
+#include "lbracket.h"
+/*id*/p_number
+#include "rbracket.h"
+#include "dot.h"
+/*id*/right_free
+#include "rparen.h"
+#include "lbrace.h"
+/*id*/philosophers
+#include "lbracket.h"
+/*id*/p_number
+#include "rbracket.h"
+#include "dot.h"
+/*id*/right_free
+#include "eq.h"
+#include "ZERO.h"
+#include "semicolon.h"
+/*id*/philosophers
+#include "lbracket.h"
+/*id*/p_number
+#include "rbracket.h"
+#include "dot.h"
+/*id*/has_right
+#include "eq.h"
+#include "ONE.h"
+#include "semicolon.h"
+#include "continue.h"
+#include "semicolon.h"
+#include "rbrace.h"
+#include "else.h"
+#include "if.h"
+#include "lparen.h"
+/*id*/philosophers
+#include "lbracket.h"
+/*id*/prev_p
+#include "rbracket.h"
+#include "dot.h"
+/*id*/right_free
+#include "andand.h"
+philosophers
+#include "lbracket.h"
+p_number
+#include "rbracket.h"
+#include "dot.h"
+/*id*/has_right
+#include "rparen.h"
+#include "lbrace.h"
+/*id*/philosophers
+#include "lbracket.h"
+/*id*/prev_p
+#include "rbracket.h"
+#include "dot.h"
+/*id*/right_free
+#include "eq.h"
+#include "ZERO.h"
+#include "semicolon.h"
+/*id*/philosophers
+#include "lbracket.h"
+/*id*/p_number
+#include "rbracket.h"
+#include "dot.h"
+/*id*/has_left
+#include "eq.h"
+#include "ONE.h"
+#include "semicolon.h"
+#include "break.h"
+#include "semicolon.h"
+#include "rbrace.h"
+#include "else.h"
+#include "if.h"
+#include "lparen.h"
+/*id*/philosophers
+#include "lbracket.h"
+/*id*/p_number
+#include "rbracket.h"
+#include "dot.h"
+/*id*/has_right
+#include "rparen.h"
+#include "lbrace.h"
+/*id*/philosophers
+#include "lbracket.h"
+/*id*/p_number
+#include "rbracket.h"
+#include "dot.h"
+/*id*/right_free
+#include "eq.h"
+#include "ONE.h"
+#include "semicolon.h"
+/*id*/philosophers
+#include "lbracket.h"
+/*id*/p_number
+#include "rbracket.h"
+#include "dot.h"
+/*id*/has_right
+#include "eq.h"
+#include "ZERO.h"
+#include "semicolon.h"
+#include "continue.h"
+#include "semicolon.h"
+#include "rbrace.h"
+
+#include "rbrace.h"
+/*id*/philosophers
+#include "lbracket.h"
+/*id*/p_number
+#include "rbracket.h"
+#include "dot.h"
+/*id*/has_right
+#include "eq.h"
+#include "ONE.h"
+#include "semicolon.h"
+/*id*/philosophers
+#include "lbracket.h"
+/*id*/prev_p
+#include "rbracket.h"
+#include "dot.h"
+/*id*/has_right
+#include "eq.h"
+#include "ONE.h"
+#include "semicolon.h"
 /*id*/printf
 #include "lparen.h"
 /*string_literal*/"Philosopher %d freed\n"
